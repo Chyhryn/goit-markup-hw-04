@@ -516,6 +516,10 @@ ul {
   margin-bottom: 0;
 }
 
+.works-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .work-container {
   padding: 20px 24px;
   border: 1px solid #eee;
@@ -543,7 +547,13 @@ ul {
 }
 
 .works-btn:hover,
-.works-btn:focus,
+.works-btn:focus {
+  color: var(--secondary-accent-color);
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .current-btn {
   color: var(--secondary-accent-color);
   background-color: var(--accent-color);
