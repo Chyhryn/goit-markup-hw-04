@@ -70,11 +70,14 @@ ul {
   display: flex;
   align-items: center;
 }
+
 .nav-list {
   display: flex;
 }
+
 .contacts-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -93,6 +96,15 @@ ul {
   margin-right: 50px;
 }
 
+.contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
 /* Logo */
 
 .logo {
